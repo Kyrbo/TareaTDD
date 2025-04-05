@@ -1,3 +1,5 @@
-
 def ohce(texto):
-    return texto [::-1]
+    resultado = texto[::-1]
+    if texto == resultado:
+        return f"{resultado}\n¡Bonita palabra!"
+    return resultado
