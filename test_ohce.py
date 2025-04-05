@@ -5,3 +5,6 @@ def test_palabra_inversa():
     
 def test_palindromo():
     assert ohce("oso") =="oso\n¡Bonita palabra!"
+    
+def test_detenerse_Stop():
+    assert ohce("Stop!") == "Adios"
