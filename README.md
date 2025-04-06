@@ -1,3 +1,21 @@
+Instrucciones
+
+Instale
+- Python 3.7 o superior
+- pytest (herramienta para pruebas unitarias en Python)
+en caso que no tenga pytest ingrese el comando:
+pip install pytest
+
+Para ejecutar abra la consola de comandos en la carpeta en que se encuentran los archivos .py descargados y ingrese el siguiente comando
+
+Para ejecutar el codigo principal
+   python ohce.py
+
+
+Para ejecutar los test utilize el comando
+
+   pytest 
+
 
 Este programa simula la kata "Ohce", y está desarrollado aplicando TDD (Test Driven Development).
 
